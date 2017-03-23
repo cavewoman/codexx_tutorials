@@ -1,13 +1,27 @@
 javascript:
   /* This little bit of silliness is here to ensure our js feature specs are working. Remove at will. */
   $(document).ready(function() {
-    $('.jumbotron p:last').after("<p>Enjoy!</p>")
+    $('.jumbotron p:last')
   });
 
 .jumbotron
-  h1 Hello, world!
+  h1 Command Line Tutorial
   br
-  p Welcome to your newly generated rails application...
-  p Meander around the code to see what's been done for you. Many small, and a few not-so-small, customizations have been made.
-  p Custom generator templates create views that are bootstrap compatible and specs that are factory-aware and follow best practices.
-  p Your application is ready for easy deployment to heroku.
+  p Thursday, January 12 6:30pm
+  p Anna Sherman
+
+.jumbotron
+  h1 Mac
+  p cmd + space
+  p terminal
+  p enter
+
+  h2 Optional
+  p ssh codexx@ec2-184-72-116-165.compute-1.amazonaws.com
+  p pw: codexx
+.jumbotron
+  h1 Windows
+  p=link_to "Download PuTTy", "http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
+  p Host: ec2-184-72-116-165.compute-1.amazonaws.com
+  p user: codexx
+  p pw: codexx
