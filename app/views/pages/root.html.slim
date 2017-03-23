@@ -1,27 +1,6 @@
-javascript:
-  /* This little bit of silliness is here to ensure our js feature specs are working. Remove at will. */
-  $(document).ready(function() {
-    $('.jumbotron p:last')
-  });
-
 .jumbotron
-  h1 Command Line Tutorial
-  br
-  p Thursday, January 12 6:30pm
-  p Anna Sherman
-
-.jumbotron
-  h1 Mac
-  p cmd + space
-  p terminal
-  p enter
-
-  h2 Optional
-  p ssh codexx@ec2-184-72-116-165.compute-1.amazonaws.com
-  p pw: codexx
-.jumbotron
-  h1 Windows
-  p=link_to "Download PuTTy", "http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
-  p Host: ec2-184-72-116-165.compute-1.amazonaws.com
-  p user: codexx
-  p pw: codexx
+  h1 Tutorials
+  p
+    =link_to "Commandline", commandline_path
+  p
+    =link_to "Git With Github 2.0", github2_path
